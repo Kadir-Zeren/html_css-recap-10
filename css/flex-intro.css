@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav {
+  background-color: cadetblue;
+  list-style-type: none;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+  align-content: center;
+}
+
+ul.nav li {
+  background-color: chocolate;
+  width: 7rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.container {
+  margin-top: 2rem;
+  background-color: cornflowerblue;
+  padding: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container * {
+  background-color: crimson;
+}
+
+.container header {
+  flex-basis: 100%;
+  flex: 1 100%;
+}
+.container footer {
+  flex-basis: 100%;
+  flex: 100%;
+}
+.container main {
+  flex-grow: 3;
+  flex: 3;
+}
+.container .left {
+  flex-grow: 1;
+}
+.container .right {
+  flex-grow: 2;
+}
